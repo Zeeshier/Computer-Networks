@@ -1,8 +1,8 @@
-# *Single Switch Network (SwitchNet-24)*
+# *Single Switch Network*
 
 ## *Project Overview*
 
-*SwitchNet-24* is a basic network topology created using **Cisco Packet Tracer**. The project consists of a single switch connected to *12 PCs* and *12 laptops*, simulating a local area network (*LAN*) environment. It is ideal for beginners to understand switch-based networking, device connectivity, and basic IP addressing.
+*Single Switch Network* is a basic network topology created using **Cisco Packet Tracer**. The project consists of a single switch connected to *12 PCs* and *12 laptops*, simulating a local area network (*LAN*) environment. It is ideal for beginners to understand switch-based networking, device connectivity, and basic IP addressing.
 
 ## *Network Topology*
 
