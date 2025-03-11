@@ -1,8 +1,8 @@
-# *Two Switches and Router (MultiSwitchNet-10)*
+# *Two Switches and Router*
 
 ## *Project Overview*
 
-*MultiSwitchNet-10* is an advanced topology featuring two switches and a router. It demonstrates inter-network communication by using both Class B (160.160.x.x) and Class C (192.168.0.x) IP addressing schemes.
+*Two Switches and Router* is an advanced topology featuring two switches and a router. It demonstrates inter-network communication by using both Class B (160.160.x.x) and Class C (192.168.0.x) IP addressing schemes.
 
 ## *Network Topology*
 
