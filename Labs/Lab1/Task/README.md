@@ -21,13 +21,13 @@ This Task demonstrates inter-network communication between two separate networks
 - **Network:** 50.0.0.x
 - **Subnet Mask:** 255.0.0.0
 - **IP Range:** 50.0.0.1 - 50.0.0.10
-- **Gateway:** 140.130.0.11
+- **Gateway:** 50.0.0.11
 
 ### **Network B (Class B Network):** 
 - **Network:** 140.130.0.x
 - **Subnet Mask:** 255.255.0.0
 - **IP Range:** 140.130.0.1 - 140.130.0.10
-- **Gateway:** 50.0.0.11
+- **Gateway:** 140.130.0.11
 
 ## **Router Configuration**
 
@@ -37,13 +37,13 @@ Router> enable
 Router# configure terminal
 
 # Configuring Interface for Network A
-Router(config)# interface GigabitEthernet0/0/0
-Router(config-if)# ip address 50.0.0.11 255.255.255.0
+Router(config)# interface gig0/1
+Router(config-if)# ip address 50.0.0.11 255.0.0.0
 Router(config-if)# no shutdown
 
 # Configuring Interface for Network B
-Router(config)# interface GigabitEthernet0/0/1
-Router(config-if)# ip address 140.130.0.11 255.255.255.0
+Router(config)# interface gig0/1
+Router(config-if)# ip address 140.130.0.11 255.255.0.0
 Router(config-if)# no shutdown
 ```
 
